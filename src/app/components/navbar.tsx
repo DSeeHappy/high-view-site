@@ -4,6 +4,7 @@ import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/outline'
 import {classNames} from "@/app/utils/classnames";
 import Image from "next/image";
 import {createContext, useContext, useState} from 'react';
+import Link from "next/link";
 
 const navigation = [
     {name: 'Gutter Guards', href: '/Gutter-Guards', current: false},
@@ -42,17 +43,19 @@ export default function Navbar() {
                                     </Disclosure.Button>
                                 </div>
                                 <div className="flex flex-shrink-0 items-center">
-                                    <Image
-                                        className="h-8 w-auto"
-                                        src="/img/HighViewWhiteIconws.png"
-                                        alt="High View's Seamless Gutters"
-                                        width={200}
-                                        height={200}
-                                    />
+                                    <Link href="/">
+                                        <Image
+                                            className="h-8 w-auto"
+                                            src="/img/HighViewWhiteIconws.png"
+                                            alt="High View's Seamless Gutters"
+                                            width={200}
+                                            height={200}
+                                        />
+                                    </Link>
                                 </div>
                                 <div className="hidden sm:hidden lg:ml-6 md:flex md:items-center md:space-x-4">
                                     {navigation.map((item) => (
-                                        <a
+                                        <Link
                                             key={item.name}
                                             href={item.href}
                                             className={classNames(
@@ -62,14 +65,12 @@ export default function Navbar() {
                                             aria-current={item.current ? 'page' : undefined}
                                         >
                                             {item.name}
-                                        </a>
+                                        </Link>
                                     ))}
                                 </div>
                             </div>
                             <div className="flex  items-center">
-
                                 <div className=" md:ml-4 md:flex md:flex-shrink-0 md:items-center">
-
                                     <div className="flex-shrink-0">
                                         <a href="https://highviewsseamlessgutters.hbportal.co/app/login">
 
@@ -82,27 +83,25 @@ export default function Navbar() {
                                         </a>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                     <Disclosure.Panel className="">
                         <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
                             {navigation.map((item) => (
-                                <Disclosure.Button
-                                    key={item.name}
-                                    as="a"
-                                    href={item.href}
-                                    className={classNames(
-                                        item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                                        'block rounded-md px-3 py-2 text-base font-medium'
-                                    )}
-                                    aria-current={item.current ? 'page' : undefined}
-                                >
-                                    {item.name}
-                                </Disclosure.Button>
+                                <Link href={item.href} key={item.name}>
+                                    <Disclosure.Button
+                                        key={item.name}
+                                        className={classNames(
+                                            item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                            'block rounded-md px-3 py-2 text-base font-medium'
+                                        )}
+                                        aria-current={item.current ? 'page' : undefined}
+                                    >
+                                        {item.name}
+                                    </Disclosure.Button>
+                                </Link>
                             ))}
-
                             <button
                                 type="button"
                                 className="relative ml-auto flex-shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
