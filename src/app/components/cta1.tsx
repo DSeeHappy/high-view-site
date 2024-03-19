@@ -39,11 +39,11 @@ export default function Cta1() {
                                     </a>
                                 </div>
                             </div>
-                            <div className="text-center">
+                            <div className="text-center bg-brand-light-blue/20 rounded-b-3xl pt-6 pb-8">
                                 <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                                     Data to enrich your online business
                                 </h1>
-                                <p className="mt-6 text-lg leading-8 text-gray-300">
+                                <p className="mt-6 text-lg leading-8 text-white ">
                                     Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat
                                     commodo.
                                     Elit sunt amet
