@@ -7,6 +7,10 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      display: ["Oswald"],
+      body: ["Oswald"],
+    },
     extend: {
       colors: {
         "brand-light-blue": "#114467",

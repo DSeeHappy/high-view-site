@@ -6,7 +6,6 @@ import Image from "next/image";
 import {createContext, useContext, useState} from 'react';
 
 const navigation = [
-    {name: 'Home', href: '/', current: true},
     {name: 'Gutter Guards', href: '/Gutter-Guards', current: false},
     {name: 'Gutters', href: '/Gutters', current: false},
     {name: 'Gutter Cleaning', href: '/Gutter-Cleaning', current: false},
@@ -23,11 +22,11 @@ const NavbarContext = createContext({
 export default function Navbar() {
     let {home, setHome, guards, setGuards, gutters, setGutters, cleaning, setCleaning} = useContext(NavbarContext);
     return (
-        <Disclosure as="nav" className="bg-brand-blue">
+        <Disclosure as="nav" className="bg-brand-blue z-0">
             {({open}) => (
                 <>
                     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                        <div className="flex h-16 justify-between">
+                        <div className="flex h-32 justify-between">
                             <div className="flex">
                                 <div className="-ml-2 mr-2 flex items-center md:hidden">
                                     {/* Mobile menu button */}
@@ -51,7 +50,7 @@ export default function Navbar() {
                                         height={200}
                                     />
                                 </div>
-                                <div className="hidden md:ml-6 md:flex md:items-center md:space-x-4">
+                                <div className="hidden sm:hidden lg:ml-6 md:flex md:items-center md:space-x-4">
                                     {navigation.map((item) => (
                                         <a
                                             key={item.name}
@@ -67,21 +66,9 @@ export default function Navbar() {
                                     ))}
                                 </div>
                             </div>
-                            <div className="flex items-center">
+                            <div className="flex  items-center">
 
-                                <div className="hidden md:ml-4 md:flex md:flex-shrink-0 md:items-center">
-                                    <div className="flex-shrink-0 pr-5">
-                                        <a className="h-6 w-6" aria-hidden="true">
-
-                                            <button
-                                                type="button"
-                                                className="relative inline-flex items-center gap-x-1.5 rounded-md bg-brand-orange px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-brand-light-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-brand-dark-orange"
-                                            >
-                                                <span className="sr-only">sales@coloradogutter.com</span>
-                                                sales@coloradogutter.com
-                                            </button>
-                                        </a>
-                                    </div>
+                                <div className=" md:ml-4 md:flex md:flex-shrink-0 md:items-center">
 
                                     <div className="flex-shrink-0">
                                         <a href="https://highviewsseamlessgutters.hbportal.co/app/login">
@@ -90,7 +77,7 @@ export default function Navbar() {
                                                 type="button"
                                                 className="relative inline-flex items-center gap-x-1.5 rounded-md bg-brand-orange px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-brand-light-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:bg-brand-dark-orange"
                                             >
-                                                Customer Log In
+                                                Customer <br/>Log In
                                             </button>
                                         </a>
                                     </div>
@@ -99,7 +86,7 @@ export default function Navbar() {
                             </div>
                         </div>
                     </div>
-                    <Disclosure.Panel className="md:hidden">
+                    <Disclosure.Panel className="">
                         <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
                             {navigation.map((item) => (
                                 <Disclosure.Button

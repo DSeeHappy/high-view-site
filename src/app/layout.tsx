@@ -1,11 +1,11 @@
 import type {Metadata} from "next";
-import {Inter} from "next/font/google";
+import {Inter, Oswald} from "next/font/google";
 import "./globals.css";
 import Navbar from "@/app/components/navbar";
 import Footer from "@/app/components/footer";
 import React from "react";
 
-const inter = Inter({subsets: ["latin"]});
+const inter = Oswald({subsets: ["latin"], weight: ["400", "500", "600", "700"], style: ["normal"]});
 
 export const metadata: Metadata = {
     title: "High View's Seamless Gutters",
@@ -34,7 +34,11 @@ export default function RootLayout({
         />
         <body className={inter.className}>
         <Navbar/>
-        {children}
+        <div className="z-20 pl-1 pr-1">
+            <div className="ring-8 ring-brand-orange rounded-3xl">
+                {children}
+            </div>
+        </div>
         <Footer/>
         </body>
         </html>

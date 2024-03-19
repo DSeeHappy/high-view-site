@@ -5,10 +5,10 @@ import Cta3 from "@/app/components/cta3";
 
 export default function Home() {
     return (
-        <>
+        <div className="rounded-3xl bg-white">
             <Cta1/>
             <Cta2/>
             <Cta3/>
-        </>
+        </div>
     );
 }
