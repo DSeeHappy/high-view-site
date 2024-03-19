@@ -111,7 +111,7 @@ export default function Footer() {
                         height={1000}
                         width={250}
                     />
-                    <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+                    <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 xl:col-span-2 xl:mt-0">
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div>
                                 <h3 className="text-sm font-semibold leading-6 text-white">Contact Us</h3>
