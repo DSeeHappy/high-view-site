@@ -39,7 +39,7 @@ export default function Cta1() {
                                     </a>
                                 </div>
                             </div>
-                            <div className="text-center bg-brand-light-blue/20 rounded-b-3xl pt-6 pb-8">
+                            <div className="text-center backdrop-blur-md rounded-3xl pt-6 pb-8">
                                 <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                                     Data to enrich your online business
                                 </h1>
@@ -64,7 +64,7 @@ export default function Cta1() {
                         </div>
                     </div>
                     <div
-                        className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)] bg-brand-light-blue/40"
+                        className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)] bg-brand-light-blue/40 "
                         aria-hidden="true"
                     >
                         <div
