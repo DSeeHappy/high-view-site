@@ -10,10 +10,10 @@ const services = [
             'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
         imageUrl:
             '/img/High-Views-Seamless-Gutters-Denver-CO-Gutter-Cleaning-1920x1080.png',
-        date: 'Mar 16, 2020',
-        datetime: '2020-03-16',
+        date: '',
+        datetime: '',
         author: {
-            name: 'Michael Foster',
+            name: 'High Views Seamless Gutters',
             imageUrl:
                 'public/img/High-Views-Seamless-Gutters-Denver-CO-Gutter-Cleaning-1920x1080.png',
         },
@@ -26,10 +26,10 @@ const services = [
             'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
         imageUrl:
             '/img/High-Views-Seamless-Gutters-Denver-CO-Gutter-Cleaning-1920x1080.png',
-        date: 'Mar 16, 2020',
-        datetime: '2020-03-16',
+        date: '',
+        datetime: '',
         author: {
-            name: 'Michael Foster',
+            name: 'High Views Seamless Gutters',
             imageUrl:
                 'public/img/High-Views-Seamless-Gutters-Denver-CO-Gutter-Cleaning-1920x1080.png',
         },

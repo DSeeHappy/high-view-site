@@ -11,32 +11,32 @@ import Image from "next/image";
 
 const features = [
     {
-        name: 'Push to deploy.',
+        name: 'test',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
         icon: CloudArrowUpIcon,
     },
     {
-        name: 'SSL certificates.',
+        name: 'test',
         description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
         icon: LockClosedIcon,
     },
     {
-        name: 'Simple queues.',
+        name: 'test',
         description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.',
         icon: ArrowPathIcon,
     },
     {
-        name: 'Advanced security.',
+        name: 'test',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
         icon: FingerPrintIcon,
     },
     {
-        name: 'Powerful API.',
+        name: 'test',
         description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
         icon: Cog6ToothIcon,
     },
     {
-        name: 'Database backups.',
+        name: 'test',
         description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. ',
         icon: ServerIcon,
     },
@@ -47,8 +47,8 @@ export default function Cta3() {
         <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl sm:text-center">
-                    <h2 className="text-base font-semibold leading-7 text-brand-dark-orange">Everything you need</h2>
-                    <p className="mt-2 text-3xl font-bold tracking-tight text-brand-dark-blue sm:text-4xl">No server? No problem.</p>
+                    <h2 className="text-base font-semibold leading-7 text-brand-dark-orange">Opener Test</h2>
+                    <p className="mt-2 text-3xl font-bold tracking-tight text-brand-dark-blue sm:text-4xl">Main Title Test</p>
                     <p className="mt-6 text-lg leading-8 text-brand-light-orange">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste
                         dolor cupiditate blanditiis.

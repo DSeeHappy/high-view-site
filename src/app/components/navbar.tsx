@@ -3,6 +3,7 @@ import {Disclosure} from '@headlessui/react'
 import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/outline'
 import {classNames} from "@/app/utils/classnames";
 import Image from "next/image";
+import {createContext, useContext, useState} from 'react';
 
 const navigation = [
     {name: 'Home', href: '/', current: true},
@@ -11,8 +12,16 @@ const navigation = [
     {name: 'Gutter Cleaning', href: '/Gutter-Cleaning', current: false},
 ]
 
+const NavbarContext = createContext({
+    home: true, setHome: () => {
+    }, guards: false, setGuards: () => {
+    }, gutters: false, setGutters: () => {
+    }, cleaning: false, setCleaning: () => {
+    }
+});
 
 export default function Navbar() {
+    let {home, setHome, guards, setGuards, gutters, setGutters, cleaning, setCleaning} = useContext(NavbarContext);
     return (
         <Disclosure as="nav" className="bg-brand-blue">
             {({open}) => (
