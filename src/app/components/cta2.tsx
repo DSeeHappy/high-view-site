@@ -50,26 +50,11 @@ const services = [
                 '/img/HighViewWhiteIconws.png',
         },
     },
-    {
-        id: 4,
-        title: 'Hot Edge Ice Melt Systems',
-        href: '/Hot-Edge-Ice-Melt-Systems',
-        description:
-            'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-        imageUrl:
-            '/img/HighViewCoHotEdge.jpg',
-        date: '',
-        datetime: '',
-        author: {
-            name: "High View's Seamless Gutters",
-            imageUrl:
-                '/img/HighViewWhiteIconws.png',
-        },
-    },
 ]
 
 const timeline = [
     {
+        id: 1,
         name: 'Request your free quote',
         description:
             'Nihil aut nam. Dignissimos a pariatur et quos omnis. Aspernatur asperiores et dolorem dolorem optio voluptate repudiandae.',
@@ -77,6 +62,7 @@ const timeline = [
         dateTime: '2021-08',
     },
     {
+        id: 2,
         name: 'Schedule your service',
         description:
             'Provident quia ut esse. Vero vel eos repudiandae aspernatur. Cumque minima impedit sapiente a architecto nihil.',
@@ -84,6 +70,7 @@ const timeline = [
         dateTime: '2021-12',
     },
     {
+        id: 3,
         name: 'Installation day',
         description:
             'Sunt perspiciatis incidunt. Non necessitatibus aliquid. Consequatur ut officiis earum eum quia facilis. Hic deleniti dolorem quia et.',
@@ -91,6 +78,7 @@ const timeline = [
         dateTime: '2022-02',
     },
     {
+        id: 4,
         name: 'Enjoy your new gutters',
         description:
             'Ut ipsa sint distinctio quod itaque nam qui. Possimus aut unde id architecto voluptatem hic aut pariatur velit.',
@@ -143,10 +131,10 @@ export default function Cta2() {
                     </div>
                 </div>
                 <div
-                    className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+                    className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                     {services.map((service) => (
                         <article
-                            key={service.id}
+                            key={service.href}
                             className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80 ring-8 ring-brand-orange"
                         >
                             <Image src={service.imageUrl} alt="" height={1920} width={1080}
