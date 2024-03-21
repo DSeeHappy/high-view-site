@@ -57,7 +57,7 @@ const timeline = [
         id: 1,
         name: 'Request your free quote',
         description:
-            'Nihil aut nam. Dignissimos a pariatur et quos omnis. Aspernatur asperiores et dolorem dolorem optio voluptate repudiandae.',
+            'Kick off your journey to efficient, hassle-free gutters. Reach out for a detailed assessment and personalized advice, ensuring your home\'s protection is in expert hands.',
         date: 'Today',
         dateTime: '2021-08',
     },
@@ -65,7 +65,7 @@ const timeline = [
         id: 2,
         name: 'Schedule your service',
         description:
-            'Provident quia ut esse. Vero vel eos repudiandae aspernatur. Cumque minima impedit sapiente a architecto nihil.',
+            'After receiving your quote, we’ll find a convenient time for your installation. Our flexible scheduling promises a smooth process tailored to your busy life.',
         date: 'Soonest available',
         dateTime: '2021-12',
     },
@@ -73,7 +73,7 @@ const timeline = [
         id: 3,
         name: 'Installation day',
         description:
-            'Sunt perspiciatis incidunt. Non necessitatibus aliquid. Consequatur ut officiis earum eum quia facilis. Hic deleniti dolorem quia et.',
+            'Our team arrives ready for a quick and clean installation. Experience the High View difference as we upgrade your home with minimal disruption.',
         date: 'Everything is ready for you',
         dateTime: '2022-02',
     },
@@ -81,7 +81,7 @@ const timeline = [
         id: 4,
         name: 'Enjoy your new gutters',
         description:
-            'Ut ipsa sint distinctio quod itaque nam qui. Possimus aut unde id architecto voluptatem hic aut pariatur velit.',
+            'Your new gutters aren\'t just installed; they\'re guaranteed. Enjoy the peace of mind that comes with our 5-year leak warranty, ensuring your home stays protected, rain or shine',
         date: 'All done!',
         dateTime: '2022-12',
     },
@@ -99,9 +99,9 @@ export default function Cta2() {
         <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center">
-                    <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Services</h2>
+                    <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Services</h2>
                     <p className="mt-2 text-lg leading-8 text-gray-600">
-                        Learn how to grow your business with our expert advice.
+                        Seamless Gutter Solutions: From Quote to Installation
                     </p>
                 </div>
                 <div className="bg-white py-24 sm:py-32">
