@@ -32,7 +32,7 @@ export default function Cta1() {
                     <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                         <div
                             className="relative rounded-full px-3 py-1 text-sm leading-6 text-white ring-1 ring-brand-orange/40 hover:ring-brand-blue bg-brand-light-orange/45">
-                            Sales@coloradogutter.com{' '}
+                            Protect Your Home Effortlessly{' '}
                             <a href="#" className="font-semibold text-white">
                                 <span className="absolute inset-0" aria-hidden="true"/>
                                 Email for free estimate <span aria-hidden="true">&rarr;</span>
@@ -41,13 +41,11 @@ export default function Cta1() {
                     </div>
                     <div className="text-center backdrop-blur-sm rounded-3xl pt-6 pb-8">
                         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                            Test Title
+                            Colorado's Leaf-Free Gutter Solution
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-white ">
-                            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat
-                            commodo.
-                            Elit sunt amet
-                            fugiat veniam occaecat fugiat aliqua.
+                            Say goodbye to clogged gutters! High View's Seamless Gutters in Denver offers expert gutter
+                            guard installations. Enjoy a cleaner home with our free estimate.
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <a
