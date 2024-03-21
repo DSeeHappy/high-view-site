@@ -57,10 +57,10 @@ export default function Cta3() {
                     <h2 className="text-base font-semibold leading-7 text-brand-dark-orange">Enhancing Your Home&apos;s
                         Health with Precision and Care</h2>
                     <p className="mt-2 text-3xl font-bold tracking-tight text-brand-dark-blue sm:text-4xl">High
-                        View&apos;s Seamless Gutters: Expert Solutions for a Healthy, Happy Home
-                        Test</p>
+                        View&apos;s Seamless Gutters: Expert Solutions for a Healthy, Happy Home</p>
                     <p className="mt-6 text-lg leading-8 text-brand-dark-orange">
-                        High View&apos;s Seamless Gutters is at the forefront of creating healthier living spaces through
+                        High View&apos;s Seamless Gutters is at the forefront of creating healthier living spaces
+                        through
                         expert gutter solutions.
                     </p>
                     <p className="mt-6 text-lg leading-8 text-brand-dark-blue">
@@ -68,7 +68,8 @@ export default function Cta3() {
                         Improperly installed gutters can lead to significant issues, including rainwater accumulating in
                         undesirable areas around your home. This not only risks water damage but can also cause more
                         severe problems such as mold growth, cracked foundations, and damaged landscaping. At High
-                        View&apos;s Seamless Gutters, we&apos;re experts at preventing these issues. Our precision in installation
+                        View&apos;s Seamless Gutters, we&apos;re experts at preventing these issues. Our precision in
+                        installation
                         ensures that water is directed away from your home, protecting its structural integrity and
                         preventing any health hazards associated with water damage.
                     </p>
@@ -80,7 +81,8 @@ export default function Cta3() {
                     </p>
                     <p className="mt-6 text-lg leading-8 text-brand-dark-blue">
                         Choose High View&apos;s Seamless
-                        Gutters for a partnership that prioritizes your home&apos;s longevity and your peace of mind, with
+                        Gutters for a partnership that prioritizes your home&apos;s longevity and your peace of mind,
+                        with
                         every detail managed with utmost precision and care.
                     </p>
                 </div>
