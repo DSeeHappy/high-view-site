@@ -41,10 +41,10 @@ export default function Cta1() {
                     </div>
                     <div className="text-center backdrop-blur-sm rounded-3xl pt-6 pb-8">
                         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                            Colorado's Leaf-Free Gutter Solution
+                            Colorado&apos;s Leaf-Free Gutter Solution
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-white ">
-                            Say goodbye to clogged gutters! High View's Seamless Gutters in Denver offers expert gutter
+                            Say goodbye to clogged gutters! High View&apos;s Seamless Gutters in Denver offers expert gutter
                             guard installations. Enjoy a cleaner home with our free estimate.
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
