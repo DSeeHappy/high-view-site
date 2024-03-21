@@ -90,7 +90,7 @@ const timeline = [
 const stats = [
     {
         id: 1,
-        label: 'High View\'s Seamless Gutters offers unmatched durability and efficiency in keeping leaves and debris out. Our custom-fit design ensures your gutters remain free-flowing, backed by a 5-year leak warranty. Affordable, effective, and locally made, our gutter guards stand as the top choice for homeowners seeking the best in home protection.',
+        label: 'High View\'s Seamless Gutters offers unmatched durability and efficiency in keeping leaves and debris out. Our custom-fit design ensures your gutters remain free-flowing, backed by a 5-year leak warranty.',
         subtitle: 'The Pinnacle of Gutter Protection',
         value: 'High View’s Gutter Guards'
     },
@@ -197,8 +197,20 @@ export default function Cta2() {
                         </div>
                         <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
                             {stats.map((stat) => (
-                                <div key={stat.id} className="flex flex-col bg-white/5 p-8">
+                                <div key={stat.id} className="flex flex-col bg-white/5 pt-12 pb-10 pl-2 pr-2">
+                                    <div className="relative">
+                                        <div className="absolute inset-0 flex items-center" aria-hidden="true">
+                                            <div className="w-full border-t border-gray-300"/>
+                                        </div>
+                                        <div className="relative flex justify-center">
+                                            <span className="bg-white px-2 text-sm text-gray-500">
+                                                                                    <dd className="order-first text-lg font-semibold tracking-tight text-brand-orange">{stat.subtitle}</dd>
+
+                                            </span>
+                                        </div>
+                                    </div>
                                     <dt className="text-sm font-semibold leading-6 text-gray-300">{stat.label}</dt>
+
                                     <dd className="order-first text-3xl font-semibold tracking-tight text-white">{stat.value}</dd>
                                 </div>
                             ))}
