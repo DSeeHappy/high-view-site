@@ -1,44 +1,51 @@
 'use client'
 import {
     ArrowPathIcon,
-    CloudArrowUpIcon,
+    ShieldCheckIcon,
     Cog6ToothIcon,
     FingerPrintIcon,
     LockClosedIcon,
     ServerIcon,
 } from '@heroicons/react/20/solid'
 import Image from "next/image";
+import {
+    CalendarIcon,
+    CurrencyDollarIcon,
+    HeartIcon,
+    PhoneIcon,
+    QuestionMarkCircleIcon
+} from "@heroicons/react/24/solid";
 
 const features = [
     {
-        name: 'test',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
-        icon: CloudArrowUpIcon,
+        name: 'Why Choose Our Gutter Guards?',
+        description: 'Our gutter guards are engineered for maximum efficiency, preventing leaves and debris from clogging your gutters. This means less cleaning, more protection against water damage, and a healthier home environment. Discover the difference with our custom-fit solutions.',
+        icon: ShieldCheckIcon,
     },
     {
-        name: 'test',
-        description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-        icon: LockClosedIcon,
+        name: 'Quick and Efficient Installation Process',
+        description: 'Experience seamless service from start to finish. Our team conducts fast, non-intrusive installations at your convenience, ensuring your new gutter guards are up and protecting your home in no time. Schedule your hassle-free installation today.',
+        icon: CalendarIcon,
     },
     {
-        name: 'test',
-        description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.',
-        icon: ArrowPathIcon,
+        name: 'Cost-Effective Gutter Solutions',
+        description: 'Protect your home without breaking the bank. Our gutter guards offer a cost-effective solution to prevent expensive water damage repairs. With competitive pricing and a 5-year leak warranty, investing in your home’s future has never been smarter',
+        icon: HeartIcon,
     },
     {
-        name: 'test',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
-        icon: FingerPrintIcon,
+        name: 'Enhance Your Home’s Value and Appeal',
+        description: 'Boost your home\'s curb appeal and value with our aesthetically pleasing gutter guards. Not only do they protect your home, but they also enhance its overall look, contributing to a beautiful and well-maintained appearance that lasts.',
+        icon: CurrencyDollarIcon,
     },
     {
-        name: 'test',
-        description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-        icon: Cog6ToothIcon,
+        name: 'Frequently Asked Questions',
+        description: 'Have questions about gutter guards? From maintenance to material, find all the answers in our comprehensive FAQ section. We’re here to provide you with the knowledge you need to make an informed decision.',
+        icon: QuestionMarkCircleIcon,
     },
     {
-        name: 'test',
-        description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. ',
-        icon: ServerIcon,
+        name: 'Get Your Free Estimate Today',
+        description: 'Ready to take the next step? Contact us now for a free, no-obligation estimate on our gutter guard installations. Our team is on standby to help you begin your journey to a safer, cleaner, and more efficient home. ',
+        icon: PhoneIcon,
     },
 ]
 
