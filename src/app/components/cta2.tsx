@@ -88,10 +88,30 @@ const timeline = [
 ]
 
 const stats = [
-    {id: 1, label: 'subtitle subtitle subtitle', value: 'test'},
-    {id: 2, label: 'subtitle subtitle subtitle', value: 'test'},
-    {id: 3, label: 'subtitle subtitle subtitle', value: 'test'},
-    {id: 4, label: 'subtitle subtitle subtitle', value: 'test'},
+    {
+        id: 1,
+        label: 'High View\'s Seamless Gutters offers unmatched durability and efficiency in keeping leaves and debris out. Our custom-fit design ensures your gutters remain free-flowing, backed by a 5-year leak warranty. Affordable, effective, and locally made, our gutter guards stand as the top choice for homeowners seeking the best in home protection.',
+        subtitle: 'The Pinnacle of Gutter Protection',
+        value: 'High View’s Gutter Guards'
+    },
+    {
+        id: 2,
+        label: 'While LeafGuard is a well-known brand, customers often report dissatisfaction with the one-size-fits-all approach, leading to suboptimal performance in diverse weather conditions. Additionally, their higher price point does not always guarantee superior quality or service.',
+        subtitle: 'Compromises Await',
+        value: 'LeafGuard'
+    },
+    {
+        id: 3,
+        label: 'GutterHelmet promises much but sometimes falls short, especially in areas with heavy leaf fall and severe weather. Customers have raised concerns about water overshooting and the system\'s ability to handle downpours, questioning the value for their investment.',
+        subtitle: 'Expectations vs. Reality',
+        value: 'GutterHelmet'
+    },
+    {
+        id: 4,
+        label: 'LeafFilter garners attention with aggressive marketing, yet reviews frequently point to issues like clogging, difficult maintenance, and unexpected costs for repairs. The mesh filter, while effective initially, often requires more upkeep than anticipated, diminishing its long-term value.',
+        subtitle: 'The Fine Print Matters',
+        value: 'LeafFilter'
+    },
 ]
 
 export default function Cta2() {
@@ -169,9 +189,10 @@ export default function Cta2() {
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:max-w-none">
                         <div className="text-center">
-                            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Gutter Guard Types</h2>
+                            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Discover the Best
+                                Gutter Guards on the Market</h2>
                             <p className="mt-4 text-lg leading-8 text-gray-300">
-                                Lorem ipsum dolor sit amet consect adipisicing possimus.
+                                Why High View&apos;s Seamless Gutters Outperform the Competition
                             </p>
                         </div>
                         <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">

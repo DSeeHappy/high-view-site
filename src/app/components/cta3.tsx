@@ -47,13 +47,34 @@ export default function Cta3() {
         <div className="bg-white py-24 sm:py-32 rounded-b-3xl ">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl sm:text-center">
-                    <h2 className="text-base font-semibold leading-7 text-brand-dark-orange">Opener Test</h2>
-                    <p className="mt-2 text-3xl font-bold tracking-tight text-brand-dark-blue sm:text-4xl">Main Title
+                    <h2 className="text-base font-semibold leading-7 text-brand-dark-orange">Enhancing Your Home&apos;s
+                        Health with Precision and Care</h2>
+                    <p className="mt-2 text-3xl font-bold tracking-tight text-brand-dark-blue sm:text-4xl">High
+                        View&apos;s Seamless Gutters: Expert Solutions for a Healthy, Happy Home
                         Test</p>
-                    <p className="mt-6 text-lg leading-8 text-brand-light-orange">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit
-                        eaque, iste
-                        dolor cupiditate blanditiis.
+                    <p className="mt-6 text-lg leading-8 text-brand-dark-orange">
+                        High View’s Seamless Gutters is at the forefront of creating healthier living spaces through
+                        expert gutter solutions.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-brand-dark-blue">
+
+                        Improperly installed gutters can lead to significant issues, including rainwater accumulating in
+                        undesirable areas around your home. This not only risks water damage but can also cause more
+                        severe problems such as mold growth, cracked foundations, and damaged landscaping. At High
+                        View’s Seamless Gutters, we're experts at preventing these issues. Our precision in installation
+                        ensures that water is directed away from your home, protecting its structural integrity and
+                        preventing any health hazards associated with water damage.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-brand-dark-blue">
+                        With personalized consultations and a dedicated approach, our
+                        team ensures that your home benefits from the best in gutter technology, all while enhancing its
+                        aesthetic appeal. Trust in our proven track record, supported by our robust 5-year leak
+                        warranty, to maintain your home’s health and your family’s comfort.
+                    </p>
+                    <p className="mt-6 text-lg leading-8 text-brand-dark-blue">
+                        Choose High View’s Seamless
+                        Gutters for a partnership that prioritizes your home’s longevity and your peace of mind, with
+                        every detail managed with utmost precision and care.
                     </p>
                 </div>
             </div>
