@@ -44,8 +44,14 @@ export default function Cta1() {
                             Colorado&apos;s Leaf-Free Gutter Solution
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-white ">
-                            Say goodbye to clogged gutters! High View&apos;s Seamless Gutters in Denver offers expert gutter
-                            guard installations. Enjoy a cleaner home with our free estimate.
+                            Say goodbye to clogged gutters!
+                        </p>
+                        <p className="mt-6 text-lg leading-8 text-white ">
+                            High View&apos;s Seamless Gutters in Denver offers expert gutter
+                            guard installations.
+                        </p>
+                        <p className="mt-6 text-lg leading-8 text-white ">
+                            Enjoy a cleaner home with our free estimate.
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <a
