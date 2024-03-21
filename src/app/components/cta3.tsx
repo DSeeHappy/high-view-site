@@ -60,7 +60,7 @@ export default function Cta3() {
                         View&apos;s Seamless Gutters: Expert Solutions for a Healthy, Happy Home
                         Test</p>
                     <p className="mt-6 text-lg leading-8 text-brand-dark-orange">
-                        High View’s Seamless Gutters is at the forefront of creating healthier living spaces through
+                        High View&apos;s Seamless Gutters is at the forefront of creating healthier living spaces through
                         expert gutter solutions.
                     </p>
                     <p className="mt-6 text-lg leading-8 text-brand-dark-blue">
@@ -68,7 +68,7 @@ export default function Cta3() {
                         Improperly installed gutters can lead to significant issues, including rainwater accumulating in
                         undesirable areas around your home. This not only risks water damage but can also cause more
                         severe problems such as mold growth, cracked foundations, and damaged landscaping. At High
-                        View’s Seamless Gutters, we're experts at preventing these issues. Our precision in installation
+                        View&apos;s Seamless Gutters, we&apos;re experts at preventing these issues. Our precision in installation
                         ensures that water is directed away from your home, protecting its structural integrity and
                         preventing any health hazards associated with water damage.
                     </p>
@@ -76,11 +76,11 @@ export default function Cta3() {
                         With personalized consultations and a dedicated approach, our
                         team ensures that your home benefits from the best in gutter technology, all while enhancing its
                         aesthetic appeal. Trust in our proven track record, supported by our robust 5-year leak
-                        warranty, to maintain your home’s health and your family’s comfort.
+                        warranty, to maintain your home’s health and your family&apos;s comfort.
                     </p>
                     <p className="mt-6 text-lg leading-8 text-brand-dark-blue">
-                        Choose High View’s Seamless
-                        Gutters for a partnership that prioritizes your home’s longevity and your peace of mind, with
+                        Choose High View&apos;s Seamless
+                        Gutters for a partnership that prioritizes your home&apos;s longevity and your peace of mind, with
                         every detail managed with utmost precision and care.
                     </p>
                 </div>
