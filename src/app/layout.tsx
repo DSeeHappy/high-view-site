@@ -34,7 +34,7 @@ export default function RootLayout({
         />
         <body className={inter.className}>
         <Navbar/>
-        <div className="z-20 pl-1 pr-1 bg-brand-blue">
+        <div className="z-20 md:pl-8 md:pr-8 lg:pl-10 lg:pr-10 bg-brand-blue">
             <div className="ring-8 ring-brand-blue rounded-3xl">
                 {children}
             </div>
