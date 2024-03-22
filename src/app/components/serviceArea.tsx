@@ -7,10 +7,24 @@ export default function ServiceArea() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
                     <div className="mx-auto w-full max-w-xl lg:mx-0">
-                        <h2 className="text-3xl font-bold tracking-tight text-white">Service Area</h2>
-                        <p className="mt-6 text-lg leading-8 text-gray-300">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a
-                            scelerisque amet ullamcorper eu enim et fermentum, augue.
+                        <h2 className="text-3xl font-bold tracking-tight text-white text-center">Service Area</h2>
+                        <p className="mt-6 text-2xl leading-8 text-white text-center">
+                            Denver Metro Area
+                            Cherry Hills Village
+                            Greenwood Village
+                            Highlands Ranch
+                            Lone Tree
+                            Castle Pines
+                            Castle Rock
+                            Parker
+                            Centennial
+                            Boulder
+                            Littleton
+                            Evergreen
+                            Morrison
+                            Golden
+                            Louisville
+                            Lafayette and surrounding areas
                         </p>
                         <div className="mt-8 flex items-center gap-x-6">
                             <a
@@ -24,7 +38,8 @@ export default function ServiceArea() {
                             </a>
                         </div>
                     </div>
-                    <div className="mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">
+                    <div
+                        className="mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">
                         <Image
                             className="max-h-12 w-full object-contain object-left"
                             src=""
