@@ -107,10 +107,13 @@ export default function GuttersPage() {
                                 Beyond Gutter Installation: Total Home Protection
                             </p>
                             <p className="mt-6 text-lg leading-8 text-brand-blue">
-                                With High View's Seamless Gutters, you're not just installing gutters; you're investing
-                                in your home's future. Our comprehensive 5-year warranty and expertly designed systems
+                                With High View&apos;s Seamless Gutters, you&apos;re not just installing gutters;
+                                you&apos;re investing
+                                in your home&apos;s future. Our comprehensive 5-year warranty and expertly designed
+                                systems
                                 ensure your home is protected from the elements, enhancing its value and structural
-                                integrity. Experience peace of mind with gutters made to withstand Colorado's unique
+                                integrity. Experience peace of mind with gutters made to withstand Colorado&apos;s
+                                unique
                                 weather conditions.
                             </p>
                             <dl className="mt-16 grid max-w-xl grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 xl:mt-16">
