@@ -4,18 +4,34 @@ import Image from "next/image";
 
 const features = [
     {
-        name: 'test',
+        name: 'Custom Solutions for Colorado Homes',
         description:
-            'lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+            'Discover the perfect blend of elegance and durability with High View\'s 5 and 6 inch gutter installations, tailored for Colorado\'s landscapes. From mountain retreats to upscale neighborhoods, our gutters provide superior protection and style. Benefit from our precision installation and elevate your home\'s aesthetics and resilience. Choose excellence, choose High View.',
     },
 
 ]
 
 const stats = [
-    { id: 1, name: 'test', value: '0' },
-    { id: 2, name: 'test', value: '0' },
-    { id: 3, name: 'teste', value: '0' },
-    { id: 4, name: 'tests', value: '0' },
+    {
+        id: 1,
+        name: 'Trust in our 5-year warranty covering your gutter system against leaks, ensuring lasting performance and homeowner satisfaction. It\'s not just a promise; it\'s our commitment to you.',
+        value: '5-Year Peace of Mind'
+    },
+    {
+        id: 2,
+        name: 'Prevent costly foundation damage caused by improper water drainage. Our gutters are designed to steer water away from your home\'s foundation, protecting its structural health.',
+        value: 'Rotting Foundation Prevention'
+    },
+    {
+        id: 3,
+        name: 'Elevate your property\'s appeal and market value with our premium gutter installations. A well-protected home is a sought-after home, making your investment now, pay off later.',
+        value: 'Increased Home Value'
+    },
+    {
+        id: 4,
+        name: 'Engineered to withstand Colorado\'s diverse climates, from heavy snowfalls to summer rains. Our gutter systems ensure your home is prepared for every season, year after year.',
+        value: 'Ready for All Weather'
+    },
 ]
 export default function GuttersPage() {
 
@@ -25,17 +41,17 @@ export default function GuttersPage() {
                 <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
                     <div>
                         <div className="border-b border-gray-200 pb-10">
-                            <h2 className="font-medium text-gray-500">5&quot; & 6&quot; Seamless Gutter
-                                Installation</h2>
-                            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Test
-                                Title</p>
+                            <h2 className="font-medium text-brand-orange">Elevate Your Home&apos;s Protection and
+                                Style</h2>
+                            <p className="mt-2 text-3xl font-bold tracking-tight text-brand-blue sm:text-4xl">Premium 5
+                                & 6 Inch Gutter Installations</p>
                         </div>
 
                         <dl className="mt-10 space-y-10">
                             {features.map((feature) => (
                                 <div key={feature.name}>
-                                    <dt className="text-sm font-medium text-gray-900">{feature.name}</dt>
-                                    <dd className="mt-3 text-sm text-gray-500">{feature.description}</dd>
+                                    <dt className="text-lg font-medium text-brand-blue">{feature.name}</dt>
+                                    <dd className="mt-3 text-lg text-brand-light-blue">{feature.description}</dd>
                                 </div>
                             ))}
                         </dl>
@@ -85,12 +101,17 @@ export default function GuttersPage() {
                 <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
                     <div className="px-6 pb-24 pt-16 sm:pb-32 sm:pt-20 lg:col-start-2 lg:px-8 lg:pt-32">
                         <div className="mx-auto max-w-2xl lg:mr-0 lg:max-w-lg">
-                            <h2 className="text-base font-semibold leading-8 text-indigo-600">Test</h2>
-                            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                               Test
+                            <h2 className="text-base font-semibold leading-8 text-brand-orange">Safeguard Your Home,
+                                Season After Season</h2>
+                            <p className="mt-2 text-3xl font-bold tracking-tight text-brand-blue sm:text-4xl">
+                                Beyond Gutter Installation: Total Home Protection
                             </p>
-                            <p className="mt-6 text-lg leading-8 text-gray-600">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies
+                            <p className="mt-6 text-lg leading-8 text-brand-blue">
+                                With High View's Seamless Gutters, you're not just installing gutters; you're investing
+                                in your home's future. Our comprehensive 5-year warranty and expertly designed systems
+                                ensure your home is protected from the elements, enhancing its value and structural
+                                integrity. Experience peace of mind with gutters made to withstand Colorado's unique
+                                weather conditions.
                             </p>
                             <dl className="mt-16 grid max-w-xl grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 xl:mt-16">
                                 {stats.map((stat) => (
