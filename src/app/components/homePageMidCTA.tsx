@@ -114,12 +114,22 @@ const stats = [
     },
 ]
 
-export default function Homepagemidcta() {
+export default function HomePageMidCTA() {
     return (
         <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center">
-                    <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Services</h2>
+                    <div className="relative">
+                        <div className="absolute inset-0 flex items-center" aria-hidden="true">
+                            <div className="w-full border-t border-gray-300"/>
+                        </div>
+                        <div className="relative flex justify-center">
+                            <span
+                                className="bg-white px-3 text-base font-semibold leading-6 ">
+                                <h2 className="text-3xl font-bold tracking-tight text-brand-blue sm:text-4xl">Our Services</h2>
+                            </span>
+                        </div>
+                    </div>
                     <p className="mt-2 text-lg leading-8 text-gray-600">
                         Seamless Gutter Solutions: From Quote to Installation
                     </p>
@@ -189,8 +199,19 @@ export default function Homepagemidcta() {
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:max-w-none">
                         <div className="text-center">
-                            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Discover the Best
+                            <div className="relative">
+                                <div className="absolute inset-0 flex items-center" aria-hidden="true">
+                                    <div className="w-full border-t border-gray-300"/>
+                                </div>
+                                <div className="relative flex justify-center">
+                                    <span
+                                        className="bg-brand-blue px-3 text-base font-semibold leading-6 text-gray-900">
+                                        <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Discover the Best
                                 Gutter Guards on the Market</h2>
+                                    </span>
+                                </div>
+                            </div>
+
                             <p className="mt-4 text-lg leading-8 text-gray-300">
                                 Why High View&apos;s Seamless Gutters Outperform the Competition
                             </p>

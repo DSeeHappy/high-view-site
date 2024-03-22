@@ -4,6 +4,8 @@ import "./globals.css";
 import Navbar from "@/app/components/navbar";
 import Footer from "@/app/components/footer";
 import React from "react";
+import ServiceArea from "@/app/components/serviceArea";
+import TopPromoBar from "@/app/components/topPromoBar";
 
 const inter = Oswald({subsets: ["latin"], weight: ["400", "500", "600", "700"], style: ["normal"]});
 
@@ -33,12 +35,14 @@ export default function RootLayout({
             sizes="<generated>"
         />
         <body className={inter.className}>
+        <TopPromoBar/>
         <Navbar/>
         <div className="z-20 md:pl-8 md:pr-8 lg:pl-10 lg:pr-10 bg-brand-blue">
             <div className="ring-8 ring-brand-blue rounded-3xl">
                 {children}
             </div>
         </div>
+        <ServiceArea/>
         <Footer/>
         </body>
         </html>

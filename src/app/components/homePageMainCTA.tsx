@@ -2,7 +2,7 @@
 import {useState} from 'react'
 import Image from "next/image";
 
-export default function Homepagemaincta() {
+export default function HomePageMainCTA() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
