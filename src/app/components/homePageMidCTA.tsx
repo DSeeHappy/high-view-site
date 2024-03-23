@@ -226,7 +226,6 @@ export default function HomePageMidCTA() {
                                         <div className="relative flex justify-center">
                                             <span className="bg-white px-2 text-sm text-gray-500">
                                                                                     <dd className="order-first text-lg font-semibold tracking-tight text-brand-orange">{stat.subtitle}</dd>
-
                                             </span>
                                         </div>
                                     </div>

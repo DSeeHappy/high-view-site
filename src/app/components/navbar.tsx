@@ -87,14 +87,14 @@ export default function Navbar() {
                         </div>
                     </div>
                     <Disclosure.Panel className="">
-                        <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
+                        <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3 ">
                             {navigation.map((item) => (
-                                <Link href={item.href} key={item.name}>
+                                <Link href={item.href} key={item.name} className="">
                                     <Disclosure.Button
                                         key={item.name}
                                         className={classNames(
-                                            item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                                            'block rounded-md px-3 py-2 text-base font-medium'
+                                            item.current ? 'bg-brand-light-orange text-white' : 'text-white hover:bg-brand-light-orange hover:text-gray-500 focus:bg-brand-light-orange focus:text-gray-500',
+                                            'block  px-3 py-6 text-base font-bold text-center w-full'
                                         )}
                                         aria-current={item.current ? 'page' : undefined}
                                     >
@@ -102,26 +102,6 @@ export default function Navbar() {
                                     </Disclosure.Button>
                                 </Link>
                             ))}
-                            <button
-                                type="button"
-                                className="relative ml-auto flex-shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-                            >
-                                <span className="absolute -inset-1.5"/>
-                                <span className="sr-only">Company Phone Number</span>
-                                <a className="h-6 w-6" aria-hidden="true">
-                                    Call
-                                </a>
-                            </button>
-                            <button
-                                type="button"
-                                className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-                            >
-                                <span className="absolute -inset-1.5"/>
-                                <span className="sr-only">sales@coloradogutter.com</span>
-                                <a className="h-6 w-6" aria-hidden="true">
-                                    Email
-                                </a>
-                            </button>
                         </div>
                     </Disclosure.Panel>
                 </>

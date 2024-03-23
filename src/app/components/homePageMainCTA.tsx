@@ -1,6 +1,7 @@
 'use client'
 import {useState} from 'react'
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HomePageMainCTA() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -33,7 +34,7 @@ export default function HomePageMainCTA() {
                         <div
                             className="relative rounded-full px-3 py-1 text-sm leading-6 text-white ring-1 ring-brand-orange/40 hover:ring-brand-blue bg-brand-light-orange/45">
                             Protect Your Home Effortlessly{' '}
-                            <a href="#" className="font-semibold text-white">
+                            <a href="mailto:sales@coloradogutter.com" className="font-semibold text-white">
                                 <span className="absolute inset-0" aria-hidden="true"/>
                                 Email for free estimate <span aria-hidden="true">&rarr;</span>
                             </a>
@@ -60,9 +61,9 @@ export default function HomePageMainCTA() {
                             >
                                 Call for a free estimate
                             </a>
-                            <a href="#" className="text-sm font-semibold leading-6 text-white">
+                            <Link href="/Gutter-Guards" className="text-sm font-semibold leading-6 text-white">
                                 Learn more <span aria-hidden="true">→</span>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

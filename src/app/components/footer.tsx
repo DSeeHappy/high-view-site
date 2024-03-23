@@ -7,14 +7,14 @@ const navigation = {
     contact: [
         {
             name: 'Gilberto Sanchez',
-            href: '#',
+            href: '/business-cards/High-View-Gilberto-Sanchez.vcf',
             title: 'Owner | Project Manager',
             phone: '(720) 325-9473',
             email: 'gilbertosanchez@coloradogutter.com'
         },
         {
             name: 'Sam Avila',
-            href: '#',
+            href: '/business-cards/High-View-Sam-Avila.vcf',
             title: 'Owner | Project Manager',
             phone: '(720) 854-5683',
             email: 'samavila@coloradogutter.com'
@@ -27,14 +27,14 @@ const navigation = {
         {name: 'Gutter Cleaning', href: '/Gutter-Cleaning'},
     ],
     about: [
-        {name: 'Claim', href: '#'},
-        {name: 'Privacy', href: '#'},
-        {name: 'Terms', href: '#'},
+        {name: 'Claim', href: '/warranty-claim'},
+        {name: 'Privacy', href: '/privacy-policy'},
+        {name: 'Terms', href: '/terms-of-service'},
     ],
     social: [
         {
             name: 'Facebook',
-            href: '#',
+            href: 'https://www.facebook.com/HighViewSeamlessGutters/',
             icon: (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => (
                 <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
                     <path
@@ -114,23 +114,34 @@ export default function Footer() {
                     <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 xl:col-span-2 xl:mt-0">
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div>
-                                <h3 className="text-sm font-semibold leading-6 text-white">Contact Us</h3>
+                                <h4 className="text-sm font-semibold leading-6 text-white">Contact Us</h4>
+                                <h5 className="text-sm font-thin leading-6 text-white">Virtual Business Cards</h5>
                                 <ul role="list" className="mt-6 space-y-4">
                                     {navigation.contact.map((item) => (
                                         <li key={item.name}>
                                             <a href={item.href}
-                                               className="text-sm leading-6 text-gray-300 hover:text-white">
-                                                {item.name}
+                                               className="text-sm leading-6 text-white">
+                                                <button className="bg-brand-orange rounded p-2 hover:bg-brand-light-orange">
+                                                    {item.name}
+                                                </button>
                                             </a>
                                             <p className="text-sm leading-6 text-gray-300 hover:text-white">
                                                 {item.title}
                                             </p>
-                                            <p className="text-sm leading-6 text-gray-300 hover:text-white">
-                                                {item.phone}
-                                            </p>
-                                            <p className="text-sm leading-6 text-gray-300 hover:text-white">
-                                                {item.email}
-                                            </p>
+                                            <a href={"tel:" + item.phone}
+                                               className="text-sm leading-6 text-gray-300 hover:text-white">
+                                                <p
+                                                    className="text-sm leading-6 text-gray-300 hover:text-white">
+                                                    {item.phone}
+                                                </p>
+                                            </a>
+                                            <a href={"mailto:" + item.email}
+                                               className="text-sm leading-6 text-gray-300 hover:text-white">
+                                                <p
+                                                    className="text-sm leading-6 text-gray-300 hover:text-white">
+                                                    {item.email}
+                                                </p>
+                                            </a>
 
                                         </li>
                                     ))}
