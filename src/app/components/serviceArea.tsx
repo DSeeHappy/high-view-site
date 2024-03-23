@@ -26,61 +26,24 @@ export default function ServiceArea() {
                             Louisville
                             Lafayette and surrounding areas
                         </p>
-                        <div className="mt-8 flex items-center gap-x-6">
+                        <div className="mt-8 flex items-center gap-x-6 place-content-center">
                             <a
-                                href="#"
-                                className="rounded-md bg-brand-orange px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                                href="tel:720-325-9473"
+                                className="rounded-md bg-brand-orange px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-brand-light-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-dark-orange"
                             >
                                 Call us
                             </a>
-                            <a href="#" className="text-sm font-semibold text-white">
-                                Read More <span aria-hidden="true">&rarr;</span>
-                            </a>
+
                         </div>
                     </div>
                     <div
-                        className="mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">
+                        className="mx-auto grid w-full max-w-xl grid-cols-1 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">
                         <Image
-                            className="max-h-12 w-full object-contain object-left"
-                            src=""
+                            className=" object-contain object-left ring-8 ring-brand-orange rounded-3xl"
+                            src="/img/Colorado-Map.png"
                             alt=""
-                            width={105}
-                            height={48}
-                        />
-                        <Image
-                            className="max-h-12 w-full object-contain object-left"
-                            src=""
-                            alt=""
-                            width={104}
-                            height={48}
-                        />
-                        <Image
-                            className="max-h-12 w-full object-contain object-left"
-                            src=""
-                            alt=""
-                            width={140}
-                            height={48}
-                        />
-                        <Image
-                            className="max-h-12 w-full object-contain object-left"
-                            src=""
-                            alt=""
-                            width={136}
-                            height={48}
-                        />
-                        <Image
-                            className="max-h-12 w-full object-contain object-left"
-                            src=""
-                            alt=""
-                            width={158}
-                            height={48}
-                        />
-                        <Image
-                            className="max-h-12 w-full object-contain object-left"
-                            src=""
-                            alt=""
-                            width={147}
-                            height={48}
+                            width={1920}
+                            height={1080}
                         />
                     </div>
                 </div>
