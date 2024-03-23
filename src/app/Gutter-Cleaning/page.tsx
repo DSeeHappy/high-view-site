@@ -90,7 +90,7 @@ export default function GutterCleaningPage() {
                     <div className="mx-auto max-w-2xl text-center lg:max-w-4xl">
                         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Expert Gutter
                             Cleaning for Colorado Homes</h2>
-                        <p className="mt-4 text-gray-500">
+                        <p className="mt-4 text-brand-blue">
                             Ensure your home’s longevity and appearance with High View&apos;s Seamless Gutters. Our
                             professional team, boasting a decade of local experience, provides fast, thorough, and
                             quality gutter cleaning services tailored for Colorado’s unique climate. Unlike national
@@ -105,7 +105,7 @@ export default function GutterCleaningPage() {
                         {features.map((feature) => (
                             <div key={feature.id} className="border-t border-gray-200 pt-4">
                                 <dt className="font-medium text-gray-900">{feature.name}</dt>
-                                <dd className="mt-2 text-sm text-gray-500">{feature.description}</dd>
+                                <dd className="mt-2 text-sm text-brand-blue">{feature.description}</dd>
                             </div>
                         ))}
                     </dl>
@@ -116,7 +116,7 @@ export default function GutterCleaningPage() {
                 <div>
                     <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Protecting Your Home
                         with Precision Gutter Cleaning</h2>
-                    <p className="mt-4 text-gray-500">
+                    <p className="mt-4 text-brand-blue">
                         High View’s Seamless Gutters doesn&apos;t just clean your gutters; we safeguard your home against a
                         myriad of potential issues caused by clogged or poorly maintained gutters. From preventing
                         fascia rot to ensuring proper water diversion, our meticulous cleaning services are designed to
@@ -128,41 +128,18 @@ export default function GutterCleaningPage() {
                         {services.map((service) => (
                             <div key={service.id} className="border-t border-gray-200 pt-4">
                                 <dt className="font-medium text-gray-900">{service.name}</dt>
-                                <dd className="mt-2 text-sm text-gray-500">{service.description}</dd>
+                                <dd className="mt-2 text-sm text-brand-blue">{service.description}</dd>
                             </div>
                         ))}
                     </dl>
                 </div>
-                <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
                     <Image
-                        src="/img/house4k.png"
+                        src="/img/rainonroof.png"
                         alt=""
-                        className="rounded-lg bg-gray-100"
+                        className="rounded-lg bg-brand-orange h-96 w-full object-cover object-center sm:h-80 sm:w-full lg:h-96 lg:w-full ring-8 ring-brand-orange"
                         height={1920}
                         width={1080}
                     />
-                    <Image
-                        src="/img/house4k.png"
-                        alt=""
-                        className="rounded-lg bg-gray-100"
-                        height={1920}
-                        width={1080}
-                    />
-                    <Image
-                        src="/img/house4k.png"
-                        alt=""
-                        className="rounded-lg bg-gray-100"
-                        height={1920}
-                        width={1080}
-                    />
-                    <Image
-                        src="/img/house4k.png"
-                        alt=""
-                        className="rounded-lg bg-gray-100"
-                        height={1920}
-                        width={1080}
-                    />
-                </div>
             </div>
         </div>
     )

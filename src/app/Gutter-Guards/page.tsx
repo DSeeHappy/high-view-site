@@ -88,11 +88,11 @@ export default function GutterGuardsPage() {
             </div>
             <section aria-labelledby="features-heading" className="relative">
                 <div
-                    className="aspect-h-2 aspect-w-3 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:h-full lg:w-1/2 lg:pr-4 xl:pr-16">
+                    className="aspect-h-2 aspect-w-3 overflow-hidden sm:aspect-w-5 lg:aspect-none lg:absolute lg:h-full lg:w-1/2 lg:pr-4 xl:pr-16 rounded-b-3xl">
                     <Image
                         src="/img/house4k.png"
-                        alt="Black leather journal with silver steel disc binding resting on wooden shelf with machined steel pen."
-                        className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                        alt=""
+                        className="h-full w-full object-cover object-center lg:h-full lg:w-full "
                         height={500}
                         width={500}
                     />
