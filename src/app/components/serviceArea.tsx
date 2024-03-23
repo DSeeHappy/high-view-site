@@ -9,22 +9,22 @@ export default function ServiceArea() {
                     <div className="mx-auto w-full max-w-xl lg:mx-0">
                         <h2 className="text-3xl font-bold tracking-tight text-white text-center">Service Area</h2>
                         <p className="mt-6 text-2xl leading-8 text-white text-center">
-                            Denver Metro Area
-                            Cherry Hills Village
-                            Greenwood Village
-                            Highlands Ranch
-                            Lone Tree
-                            Castle Pines
-                            Castle Rock
-                            Parker
-                            Centennial
-                            Boulder
-                            Littleton
-                            Evergreen
-                            Morrison
-                            Golden
-                            Louisville
-                            Lafayette and surrounding areas
+                            Denver Metro Area,
+                            Cherry Hills Village,
+                            Greenwood Village,
+                            Highlands Ranch,
+                            Lone Tree,
+                            Castle Pines,
+                            Castle Rock,
+                            Parker,
+                            Centennial,
+                            Boulder,
+                            Littleton,
+                            Evergreen,
+                            Morrison,
+                            Golden,
+                            Louisville,
+                            Lafayette, and surrounding areas
                         </p>
                         <div className="mt-8 flex items-center gap-x-6 place-content-center">
                             <a
