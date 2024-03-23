@@ -230,7 +230,7 @@ export default function HomePageMidCTA() {
                                             </span>
                                         </div>
                                     </div>
-                                    <dt className="text-sm font-semibold leading-6 text-gray-300">{stat.label}</dt>
+                                    <dt className="text-lg pt-6 text-white font-bold leading-6 ">{stat.label}</dt>
 
                                     <dd className="order-first text-3xl font-semibold tracking-tight text-white">{stat.value}</dd>
                                 </div>
