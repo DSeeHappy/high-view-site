@@ -74,12 +74,12 @@ export default function GutterCleaningPage() {
 
     return (
         <div className="bg-white rounded-3xl">
-            <div className="bg-white">
+            <div className="bg-white rounded-3xl">
                 <div aria-hidden="true" className="relative">
                     <Image
-                        src="/img/house4k.png"
+                        src="/img/leavesonroofgutters.png"
                         alt=""
-                        className="h-96 w-full object-cover object-center"
+                        className="h-96 w-full object-cover object-center rounded-3xl"
                         height={384}
                         width={768}
                     />

@@ -27,9 +27,9 @@ const navigation = {
         {name: 'Gutter Cleaning', href: '/Gutter-Cleaning'},
     ],
     about: [
-        {name: 'Claim', href: '/warranty-claim'},
-        {name: 'Privacy', href: '/privacy-policy'},
-        {name: 'Terms', href: '/terms-of-service'},
+        {name: 'Claim', href: '/Warranty-Claim'},
+        {name: 'Privacy', href: '/Privacy-Policy'},
+        {name: 'Terms', href: '/Terms-of-Service'},
     ],
     social: [
         {
